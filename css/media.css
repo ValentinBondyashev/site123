@@ -1,0 +1,142 @@
+@media screen and (max-width: 1200px){
+	.header_menu{
+		justify-content: center;
+	}
+	.header_menu_item:last-child .header_menu_link {
+		margin-right: 0;
+
+	}
+	.icon_list{
+		justify-content: center;
+	}
+	.logo_header{
+		margin-bottom: 30px;
+	}
+	.icon_item:first-child .icon_link{
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 1070px){
+	.ready{
+		width: 150px;
+		height: 150px;
+		right: -80px;
+	}
+}
+@media screen and (max-width: 990px){
+
+	.art_img_wrap {
+		margin: 0 10px 20px 10px;
+	}
+
+	.chef_about_text {
+		margin-bottom: 40px;
+	}
+
+	.food_slide{
+		display: none;
+	}
+
+	.sandwitch_ingredients_list{
+		flex-direction: row;
+	}
+	.sandwitch_ingredients_item{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 60px;
+		padding: 0 10px;
+	}
+
+	.footer_menu_item{
+		margin-top: 15px;
+	}
+	.header_head{
+		padding-top: 60px;
+		margin-bottom: 60px;
+	}
+	
+	.ready{
+		right: -30px;
+	}
+
+	.ready_min{
+		margin: 10px 0 0 0;
+	}
+	.breakfast_list{
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+	.breakfast_item{
+		width: 33%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.header_menu_item:after{
+		display: none;
+	}
+
+	.header_menu_link{
+		margin-right: 20px; 
+	}
+
+	.ready{
+		display: none;
+	}
+
+	.food_content{
+		padding: 100px 30px 0;
+	}
+	
+}
+
+@media screen and (max-width: 540px){
+	.list_pages{
+		display: none;
+	}
+	.header_head {
+		font-size: 75px;
+	}
+	
+	.favourite{
+		display: none;
+	}
+
+	.art {
+		padding: 60px 0 40px 0;
+	}
+	.art_img-content{
+		display: none;
+	}
+
+	.time_block {
+		width: 150px;
+		height: 150px;
+	}
+
+	.time_blocks {
+		top: 35px;
+	}
+
+	.full_recipe {
+		top: 492px;
+		left: -10px;
+	}
+
+	.sandwich {
+		padding: 90px 0 40px;
+	}
+
+	.footer_menu_item:after{
+		display: none;
+	}
+	
+	.footer_menu_link{
+		margin-right: 50px;
+	}
+}
+
